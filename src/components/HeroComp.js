@@ -9,7 +9,7 @@ import { Button } from 'react-bootstrap';
 function HeroComp(props) {
   return (
     <div className='hero-container'>
-      {props.img ? <img src = {'/images/' + props.img} /> : <video src='/videos/video-4.mov' autoPlay loop muted webkit-playsinline playsinline />}
+      <video src='/videos/video-4.mov' autoPlay loop muted webkit-playsinline playsinline />
       <h1>{props.name}</h1>
       <div className='hero-btns'>
 
